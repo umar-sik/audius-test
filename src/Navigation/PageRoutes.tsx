@@ -10,7 +10,7 @@ import { Box } from '@mui/system';
 import axios from 'axios';
 import { API_URL, FRONT_URL } from '../constants';
 
-// Pages
+/// Pages
 import Login from '../pages/Login/Login';
 import Resgister from '../pages/Register/Register';
 import Account from '../pages/Account';
