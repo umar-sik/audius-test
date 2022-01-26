@@ -1,0 +1,27 @@
+.tokenBox-TokenBox {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #e9e9e9;
+  flex-direction: row;
+}
+
+.tokenBox-leftSide {
+  width: 40%;
+}
+
+.tokenBox-middleSide {
+  min-width: 40%;
+  display: flex;
+}
+
+.tokenBox-rightSide {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}

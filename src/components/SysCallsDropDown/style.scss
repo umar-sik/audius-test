@@ -1,0 +1,62 @@
+.SysCallsDropDown-MainBox {
+	padding: 10px 0px;
+	width: 100%;
+	border-radius: 2px;
+}
+
+.SysCallsDropDown-Accordion {
+	background-color: rgb(218, 218, 218) !important;
+}
+
+.SysCallsDropDown-AccordionDetails {
+	background-color: #dfdfdf !important;
+	margin-top: 10px !important;
+}
+
+.SysCallsDropDown-Title {
+	font-weight: bold !important;
+	font-size: 17px !important;
+}
+
+.SysCallsDropDown-tableBox {
+	display: flex;
+	flex-direction: column;
+}
+
+.SysCallsDropDown-leftTable {
+	width: 20%;
+	padding: 10px;
+}
+
+.SysCallsDropDown-rightTable {
+	width: 80%;
+	padding: 10px;
+}
+
+.SysCallsDropDown-tableBoxHead {
+	display: flex;
+	flex-direction: row;
+}
+
+.SysCallsDropDown-highSeverity {
+	color: red !important;
+	text-transform: capitalize !important;
+}
+
+.SysCallsDropDown-lowSeverity {
+	color: #4085f4 !important;
+	text-transform: capitalize !important;
+}
+
+.SysCallsDropDown-moderateSeverity {
+	color: #d38800 !important;
+	text-transform: capitalize !important;
+}
+
+.SysCalls-syscallsBox {
+	display: flex !important;
+	flex-direction: column !important;
+	align-items: center !important;
+	justify-content: center !important;
+	width: 100% !important;
+}

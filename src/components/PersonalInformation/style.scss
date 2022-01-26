@@ -1,0 +1,93 @@
+.personalInformation-mainBox {
+	padding: 30px;
+	width: 80%;
+	@media (max-width: 960px) {
+		width: 100%;
+	}
+}
+
+.personalInformation-AccountInformation {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	padding: 10px 10px;
+	background-color: #e9e9e9;
+	align-items: center;
+	padding-left: 25px;
+	justify-content: space-between;
+	border: 1px solid #a1a1a1;
+}
+
+.personalInformation-AccountInformationName {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.personalInformation-Name {
+	font-weight: bold !important;
+	margin-left: 10px !important;
+}
+
+.personalInformation-InformationBox {
+	display: flex;
+	flex-direction: column;
+	border-top: 1px solid #a1a1a1;
+	border-left: 1px solid #a1a1a1;
+	border-right: 1px solid #a1a1a1;
+	border-radius: 4px;
+	background-color: #e9e9e9;
+	margin-top: 15px;
+}
+
+.personalInformation-tableRow {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #a1a1a1;
+	padding: 10px 17px;
+	flex-direction: row;
+}
+
+.personalInformation-leftSide {
+	width: 40%;
+}
+
+.personalInformation-middleSide {
+	text-align: center;
+	margin-left: 10px !important;
+	font-weight: bold !important;
+}
+
+.personalInformation-middleSidePassword {
+	text-align: center;
+	margin-left: 30px !important;
+	font-weight: bold !important;
+}
+
+.personalInformation-ChangeButton {
+	background-color: #fa541c !important;
+	margin-right: 5px !important;
+	max-width: 110px !important;
+	color: white !important;
+}
+
+.MuiButton-text {
+	padding: 6px 8px;
+	width: 45% !important;
+}
+
+.personalInformation-ChangeButton:hover {
+	color: white;
+	opacity: 0.8;
+}
+
+@media (min-width: 960px) {
+	.personalInformation-menuButton {
+		display: none;
+	}
+}

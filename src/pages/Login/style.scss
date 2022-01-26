@@ -1,0 +1,58 @@
+.login-BoxMain {
+	display: flex;
+	flex-direction: row;
+}
+
+.login-LeftPanel {
+	background-image: url(../../images/background-login.png);
+	height: 100vh;
+	background-size: cover;
+}
+
+.login-RightPanel {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.945) !important;
+	@media (max-width: 1280px) {
+		min-width: 100%;
+		height: 100vh;
+	}
+}
+
+.login-Logo {
+	height: 80px;
+	margin-top: 20vh !important;
+	margin-bottom: 8vh;
+	color: white;
+	font-size: 24px !important;
+	font-weight: bold !important;
+}
+
+.login-BoxSingIn {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.MuiButton-containedPrimary {
+	width: 82% !important;
+}
+
+.Login-TextField {
+	width: 80%;
+	padding: 6px !important;
+	background-color: white !important;
+	color: white !important;
+	border-color: white !important;
+	margin-top: 2vh !important;
+	border-radius: 5px !important;
+}
+
+.login-Button {
+	width: 80%;
+	background-color: #fa541c !important;
+}
+
+.login-SignUp {
+	color: #fa541c !important;
+}

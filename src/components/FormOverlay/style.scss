@@ -1,0 +1,68 @@
+.formOverlay-boxMain {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.67);
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.formOverlay-card {
+  display: flex;
+  width: 25%;
+  min-width: 330px;
+  position: absolute;
+  text-align: center;
+  height: auto;
+  background-color: #e9e9e9;
+  flex-direction: column;
+  padding: 15px;
+  border: 2px solid !important;
+  border-color: #fa541c !important;
+  margin-left: auto;
+  margin-right: auto;
+  left: calc(50vw - 12.5%);
+  top: calc(50vh - 80px);
+  z-index: 9;
+  @media (max-width: 600px) {
+    display: flex;
+    width: 60%;
+    position: absolute;
+    text-align: center;
+    height: auto;
+    background-color: #e9e9e9;
+    flex-direction: column;
+    padding: 15px;
+    border: 2px solid !important;
+    border-color: #fa541c !important;
+    margin-left: auto;
+    margin-right: auto;
+    left: calc(50vw - 170px);
+    top: calc(50vh - 80px);
+    z-index: 9;
+  }
+}
+
+.formOverlay-Clear {
+  text-align: right;
+  width: 100%;
+  display: flex;
+  margin-bottom: 8px;
+  float: right;
+}
+
+.formOverlay-ChangeEmail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formOverlay-Button {
+  margin-top: 20px !important;
+  width: 50%;
+  color: white !important;
+  border-radius: 10px !important;
+  background-color: #fa541c !important;
+}

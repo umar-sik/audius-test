@@ -1,0 +1,71 @@
+.account-LeftSide {
+	border-right: 1px solid #a1a1a1;
+	min-width: 300px;
+	background-color: #001529;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.account-logoBox {
+	height: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.account-logoTitle {
+	color: white;
+	font-size: 20px !important;
+	font-weight: bold !important;
+}
+
+.account-adjustOption {
+	height: 7%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 10px;
+	width: auto;
+	cursor: pointer;
+}
+
+.account-adjustOptionMarked {
+	height: 7%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 10px;
+	width: auto;
+	cursor: pointer;
+	background-color: #fa541c;
+}
+
+.account-optionText {
+	color: white !important;
+	font-size: 14px !important;
+}
+
+.account-adjustOption:hover {
+	background-color: #fa541c;
+}
+
+.account-link {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.account-menu {
+	display: flex;
+	width: 100%;
+	margin-bottom: 8px;
+	margin-left: 10px;
+}
+
+.account-logOutLink {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.account-logOutIcon {
+	color: white !important;
+}

@@ -1,0 +1,62 @@
+.DropDown-MainBox {
+	padding: 10px 0px;
+	width: 100%;
+	border-radius: 2px;
+}
+
+.DropDown-Accordion {
+	background-color: rgb(218, 218, 218) !important;
+}
+
+.DropDown-AccordionDetails {
+	background-color: rgb(218, 218, 218) !important;
+}
+
+.DropDown-Title {
+	font-weight: bold !important;
+	font-size: 17px !important;
+}
+
+.DropDown-tableBox {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+}
+
+.DropDown-leftTable {
+	width: 20%;
+	border: 1px solid black;
+	padding: 10px;
+	border-bottom: 0px;
+}
+
+.DropDown-rightTable {
+	border: 1px solid black;
+	width: 80%;
+	padding: 10px;
+	border-bottom: 0px;
+	border-left: 0px;
+}
+
+.DropDown-tableBoxHead {
+	display: flex;
+	flex-direction: row;
+	&:last-child {
+		border-bottom: 1px solid black;
+	}
+}
+
+.DropDown-highSeverity {
+	color: red !important;
+	text-transform: capitalize !important;
+}
+
+.DropDown-lowSeverity {
+	color: #4085f4 !important;
+	text-transform: capitalize !important;
+}
+
+.DropDown-moderateSeverity {
+	color: #d38800 !important;
+	text-transform: capitalize !important;
+}
