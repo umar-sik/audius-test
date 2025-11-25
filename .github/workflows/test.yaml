@@ -13,8 +13,8 @@ jobs:
       # Start Garnet monitoring
       - name: Start Garnet
         uses: garnet-org/action@v1
-        env:
-          GARNET_API_TOKEN: ${{ secrets.GARNET_API_TOKEN }}
+        with:
+          api_token: ${{ secrets.GARNET_API_TOKEN }}
 
       # Your existing build steps
       - name: Install dependencies
