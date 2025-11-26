@@ -1,0 +1,23 @@
+name: install
+
+on: pull_request
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Start Garnet monitoring
+      - name: Start Garnet
+        uses: garnet-org/action@v1
+        with:
+          api_token: ${{ secrets.GARNET_API_TOKEN }}
+          debug: true
+
+      # Your existing build steps
+      - name: Install dependencies
+        run: npm i tailwindcss-containers@2.13.5
+        continue-on-error: true
